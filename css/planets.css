@@ -24,18 +24,18 @@
     width: 150px!important;
     height: 150px!important;
     transform: translate(-70px);
+    border: 3px solid #0AD686;
 }
 
 .sun {
-    width: 200px;
-    height: 100px;
+    margin: 20px 20px 0 20px !important;
+    width: 300px;
+    height: 150px;
     background: radial-gradient(circle at 1vw 1vw, #fdc830, #f37335);
-    border-radius: 100px 100px 0 0;
+    border-radius: 200px 200px 0 0;
 }
 
 .mercury {
-    left: 15px;
-    /* margin: 0 auto; */
     width: 39px;
     height: 39px;
     background: radial-gradient(circle at 50% 50%, #868f96, #596164);
@@ -74,12 +74,4 @@ revolve {
     100% {
         transform: rotate(-90deg);
     }
-
-    /* 0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    } */
 }

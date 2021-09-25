@@ -39,28 +39,28 @@
     width: 39px;
     height: 39px;
     background: radial-gradient(circle at 50% 50%, #868f96, #596164);
-    transform-origin: 100% 400%;
+    transform-origin: 50% 500%;
 }
 
 .venus {
     width: 72px;
     height: 72px;
     background: radial-gradient(circle at 50% 50%, #eacda3, #eacda3);
-    transform-origin: 50% 300%;
+    transform-origin: 50% 400%;
 }
 
 .earth {
     width: 100px;
     height: 100px;
     background: radial-gradient(circle at 50% 50%,#0AD686, #03C4FD);
-    transform-origin: 50% 350%;
+    transform-origin: 50% 450%;
 }
 
 .mars {
     width: 150px;
     height: 150px;
     background: radial-gradient(circle at 50% 50%, #ff8177, #b12a5b);
-    transform-origin: 50% 350%;
+    transform-origin: 50% 400%;
 }
 
 @keyframes

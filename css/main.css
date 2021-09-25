@@ -27,7 +27,7 @@
     padding-top: 50px;
 }
 
-.planitarium {
+.planetarium {
     padding-top: 50px;
     width: 100%;
     display: flex;
@@ -41,28 +41,44 @@
     height: 300px;
     padding: 10px 0 10px 0;
     border: 3px solid #0AD686;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.bg-me {
-    background-image: linear-gradient(to right, #868f96, #596164);
+.bg-grad {
+    /* background-image: linear-gradient(#041527, #03C4FD); */
+    background-image: linear-gradient(to right, rgb(3, 196, 253, 0), rgb(3, 196, 253, 0.5));
+    text-decoration: none;
+    color:#03C4FD;
+    /* background: #03C4FD; */
 }
 
-.bg-v {
-
-}
-
-.bg-e {
-
-}
-
-.bg-ma {
-
+.bg-grad:hover {
+    background-image: linear-gradient(to right, rgb(3, 196, 253, 0), rgb(3, 196, 253, 1));
+    text-decoration: none;
+    color:#03C4FD;
 }
 
 h1 {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    /* padding-left: 350px; */
+    padding: 0 auto;
+}
+
+.h2-container {
+    width: calc(100% - 350px);
+    display: flex;
+    justify-content: center;
+}
+
+.right-padding {
+
+}
 
 
 

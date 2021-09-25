@@ -5,32 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terrestrial planets - Creative Proejct 1</title>
-    <link href="css/main.css" ref="stylesheet"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" href="/css/navbar.css"/>
+    <link rel="stylesheet" href="/css/planets.css"/>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">Academind</a>
+    <nav class="navbar navbar-expand-sm">
+        <a href="index.html" class="navbar-brand">Terrestrial</a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <button class="navbar-toggler navbar-light" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Users</a>
+                    <a href="pages/marcury.html" class="nav-link nav-color">Mercury</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Products</a>
+                    <a href="pages/venus.html" class="nav-link nav-color">Venus</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/earth.html" class="nav-link nav-color">Earth</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/mars.html" class="nav-link nav-color">Venus</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="planet">
-        <div class="earth"></div>
+    <div class="page">
+        <div class="elements">
+            <h1>Terrestrials</h1>
+            <div class="planitarium">
+                <div class="planet mars revolve speed4"></div>
+                <div class="planet earth revolve speed3"></div>
+                <div class="planet venus revolve speed2"></div>
+                <div class="planet mercury revolve speed1"></div>
+                <div class="sun"></div>
+            </div>
+            <div class="box">
+                <div class="big planet mercury"></div>
+            </div>
+            <div class="box">
+                <div class="big planet venus"></div>
+            </div>
+            <div class="box">
+                <div class="big planet earth"></div>
+            </div>
+            <div class="box">
+                <div class="big planet mars"></div>
+            </div>
+
+        </div>
     </div>
+
+    
 
 
 

@@ -1,0 +1,85 @@
+.planet {
+    border-radius: 50%;
+    margin: 10px!important;
+}
+
+.revolve {
+    animation: revolve linear infinite;
+}
+
+.speed1 {
+    animation-duration: 10s;
+}
+.speed2 {
+    animation-duration: 15s;
+}
+.speed3 {
+    animation-duration: 20s;
+}
+.speed4 {
+    animation-duration: 27s;
+}
+
+.big {
+    width: 150px!important;
+    height: 150px!important;
+    transform: translate(-70px);
+}
+
+.sun {
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(circle at 1vw 1vw, #fdc830, #f37335);
+    border-radius: 100px 100px 0 0;
+}
+
+.mercury {
+    left: 15px;
+    /* margin: 0 auto; */
+    width: 39px;
+    height: 39px;
+    background: radial-gradient(circle at 50% 50%, #868f96, #596164);
+    transform-origin: 100% 400%;
+}
+
+.venus {
+    width: 72px;
+    height: 72px;
+    background: radial-gradient(circle at 50% 50%, #eacda3, #eacda3);
+    transform-origin: 50% 300%;
+}
+
+.earth {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle at 50% 50%,#0AD686, #03C4FD);
+    transform-origin: 50% 350%;
+}
+
+.mars {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle at 50% 50%, #ff8177, #b12a5b);
+    transform-origin: 50% 350%;
+}
+
+@keyframes
+revolve {
+    0% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(-90deg);
+    }
+
+    /* 0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    } */
+}

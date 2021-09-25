@@ -1,0 +1,27 @@
+/* dark blue: #041527
+    light blue: #03C4FD
+    off-white: #F0F7EF
+    green: #0AD686 */
+
+    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .navbar {
+    
+} */
+
+
+.planet {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 100px;
+}
+
+.earth {
+    background: radial-gradient(circle at 50% 50%, #03C4FD, #0AD686);
+}

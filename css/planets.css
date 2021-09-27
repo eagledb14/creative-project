@@ -60,7 +60,7 @@
     width: 53px;
     height: 53px;
     background: radial-gradient(circle at 50% 50%, #ff8177, #000);
-    transform-origin: 50% 400%;
+    transform-origin: 50% 1000%;
 }
 
 @keyframes

@@ -10,7 +10,7 @@
 
 .page {
     width: 100%;
-    height: 5000px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +77,7 @@ h1 {
     justify-content: center;
 }
 
+/* desktop */
 @media only screen and (min-width: 961px) {
 
     .box {
@@ -87,8 +88,33 @@ h1 {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
 }
 
+.header-text {
+    color: #F0F7EF;
+    text-align: center;
+}
 
+.footer {
+    /* position: absolute; */
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width: 100%;
+    list-style-type: none;
+    background-color:#041527;
+}
+
+.footer-item {
+    padding: 10px 25px 10px 25px;
+    color: #03C4FD !important;
+    text-decoration: none;
+}
+
+.footer-item:hover {
+    color: #041527 !important;
+    background-color: #0AD686;
+}
 

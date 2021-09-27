@@ -1,0 +1,57 @@
+
+.planet-img {
+    border-radius: 100%;
+    padding: 50px !important;
+    margin: 0 auto!important;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
+.element-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-box {
+    padding: 10px!important;
+    height: 300px;
+    width: 300px;
+    color: #F0F7EF;
+    border: 3px solid #0AD686;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-header {
+    color: #F0F7EF;
+    text-align: center;
+    padding-bottom: 10px!important;
+}
+
+.body-text {
+    padding: 0 10px 0 10px;
+}
+
+.info-heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* desktop */
+@media only screen and (min-width: 961px) {
+
+    .box {
+        width: 50%;
+    }
+
+    .element-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

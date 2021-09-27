@@ -55,3 +55,13 @@
         flex-wrap: wrap;
     }
 }
+
+/* mobile */
+@media only screen and (max-width: 960px) { 
+
+    .planet-img {
+        width: 100%!important;
+        height: auto!important;
+    }
+
+}
